@@ -4,7 +4,7 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 body{
-    background: linear-gradient(140deg, #8d54c3, #cc48d0, #9201a2);
+    background: linear-gradient(140deg, #8d54c3, #cc48d0, #d263df);
     animation: live 10s ease infinite;
     background-size: 300%;
     height: 100vh;
@@ -31,7 +31,7 @@ body{
 .boxes , .days , .hours , .minutes , .seconds{
     display: flex;
     flex-wrap: wrap;
-    margin: 5px 15px ;
+    margin: 5px 10px ;
     justify-content: center;
     align-items: center;
 }
@@ -40,11 +40,14 @@ body{
     text-align: center;
     margin-top: 10px;
 }
-.hours p:nth-child(1) ,.hours p:nth-child(2) , .minutes p:nth-child(1) ,.minutes p:nth-child(2) , .seconds p:nth-child(1) ,.seconds p:nth-child(2) , .days p:nth-child(1) ,.days p:nth-child(2)  {
+.hours p:nth-child(1)  , .minutes p:nth-child(1)  , .seconds p:nth-child(1)  , .days p:nth-child(1)   {
     background-color: rgba(187, 187, 187, 0.599);
-    padding: 25px 18px;
+    padding: 15px 10px;
     margin: 5px;
     border-radius: 20%;
+    font-weight: 900;
+    font-size: 1.5rem;
+
 }
 .days{
     box-shadow: 0 0 10px 5px rgb(99, 208, 212);
